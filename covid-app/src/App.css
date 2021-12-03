@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+.main
+{
+    background-color:#F7F7F7;
+}
+.container
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 500px;
+    width: 500px;
+    margin-left:30%;
+    margin-top:35px;
+    background-color: white;
+}
+.heading
+{
+    height: 55px;
+    background-color:#FF5151;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color: #142F43;
+}
+.search-cont
+{
+    height: 70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 20px;
+    background-color: white;
+}
+.country-name
+{
+    padding: 10px;
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #F6F5F5;
+}
+.country-name:focus
+
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.info-box
+{
+    
+    height: 330px;
+    background-color: white;
+}
+.btn
+{
+    width: 60px;
+    padding: 8px;
+    background-color: #F05454;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:active
+{
+    width: 62px;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+}
+.data-box
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 50px;
+    width: 350px;
+    margin-left:75px;
+    border-radius:5px;
+    text-align:center;
+    font-size:25px;
+    line-height:50px;
+    color:white;
+}
+.country{
+  margin-top:25px;
+  background-color: #009DAE;
+}
+.recovered
+{
+ background-color: #519259;
+}
+.total
+{
+background-color: #FFCC1D;
+}
+.deaths
+{
+background-color: #FF0000;
+}
+.critical
+{
+    background-color: #ADC2A9;
+}
+.alt-text
+{
+    
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
